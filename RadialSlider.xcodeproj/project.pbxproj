@@ -18,6 +18,10 @@
 		42F60BD416270A3800C8E012 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F60BD316270A3800C8E012 /* Default-568h@2x.png */; };
 		42F60BD716270A3800C8E012 /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F60BD616270A3800C8E012 /* RSViewController.m */; };
 		42F60BDA16270A3800C8E012 /* RSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42F60BD816270A3800C8E012 /* RSViewController.xib */; };
+		42F60BE316270ACF00C8E012 /* radialslider_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F60BE116270ACF00C8E012 /* radialslider_bg.png */; };
+		42F60BE416270ACF00C8E012 /* radialslider_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F60BE216270ACF00C8E012 /* radialslider_knob.png */; };
+		42F60BEA16270C3500C8E012 /* radialslider_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F60BE816270C3500C8E012 /* radialslider_bg@2x.png */; };
+		42F60BEB16270C3500C8E012 /* radialslider_knob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F60BE916270C3500C8E012 /* radialslider_knob@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		42F60BD516270A3800C8E012 /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
 		42F60BD616270A3800C8E012 /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
 		42F60BD916270A3800C8E012 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RSViewController.xib; sourceTree = "<group>"; };
+		42F60BE116270ACF00C8E012 /* radialslider_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radialslider_bg.png; sourceTree = "<group>"; };
+		42F60BE216270ACF00C8E012 /* radialslider_knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radialslider_knob.png; sourceTree = "<group>"; };
+		42F60BE816270C3500C8E012 /* radialslider_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radialslider_bg@2x.png"; sourceTree = "<group>"; };
+		42F60BE916270C3500C8E012 /* radialslider_knob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radialslider_knob@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,7 @@
 		42F60BC316270A3800C8E012 /* RadialSlider */ = {
 			isa = PBXGroup;
 			children = (
+				42F60BE016270ACF00C8E012 /* RadialSlider */,
 				42F60BCC16270A3800C8E012 /* RSAppDelegate.h */,
 				42F60BCD16270A3800C8E012 /* RSAppDelegate.m */,
 				42F60BD516270A3800C8E012 /* RSViewController.h */,
@@ -105,6 +114,17 @@
 				42F60BD316270A3800C8E012 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42F60BE016270ACF00C8E012 /* RadialSlider */ = {
+			isa = PBXGroup;
+			children = (
+				42F60BE816270C3500C8E012 /* radialslider_bg@2x.png */,
+				42F60BE916270C3500C8E012 /* radialslider_knob@2x.png */,
+				42F60BE116270ACF00C8E012 /* radialslider_bg.png */,
+				42F60BE216270ACF00C8E012 /* radialslider_knob.png */,
+			);
+			path = RadialSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +184,10 @@
 				42F60BD216270A3800C8E012 /* Default@2x.png in Resources */,
 				42F60BD416270A3800C8E012 /* Default-568h@2x.png in Resources */,
 				42F60BDA16270A3800C8E012 /* RSViewController.xib in Resources */,
+				42F60BE316270ACF00C8E012 /* radialslider_bg.png in Resources */,
+				42F60BE416270ACF00C8E012 /* radialslider_knob.png in Resources */,
+				42F60BEA16270C3500C8E012 /* radialslider_bg@2x.png in Resources */,
+				42F60BEB16270C3500C8E012 /* radialslider_knob@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
